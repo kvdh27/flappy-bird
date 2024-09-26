@@ -9,14 +9,14 @@ let bird = {
     y: 150,
     width: 20,
     height: 20,
-    gravity: 0.2,  // Verminderd de zwaartekracht om langzamer te vallen
+    gravity: 0.0000008,  // Verminderd de zwaartekracht om langzamer te vallen
     lift: -5,   // Minder sterke sprong om de controle te vergemakkelijken
     velocity: 0
 };
 
 let pipes = [];
 let pipeWidth = 30;
-let pipeGap = 250; // Grotere opening tussen pijpen voor eenvoudiger navigatie
+let pipeGap = 500; // Grotere opening tussen pijpen voor eenvoudiger navigatie
 let frame = 0;
 
 function drawBird() {

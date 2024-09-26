@@ -9,8 +9,8 @@ let bird = {
     y: 150,
     width: 20,
     height: 20,
-    gravity: 0.0005,  // Verminderd de zwaartekracht om langzamer te vallen
-    lift: 5,   // Minder sterke sprong om de controle te vergemakkelijken
+    gravity: 0.5,  // Verminderd de zwaartekracht om langzamer te vallen
+    lift: -10,   // Minder sterke sprong om de controle te vergemakkelijken
     velocity: 0
 };
 
